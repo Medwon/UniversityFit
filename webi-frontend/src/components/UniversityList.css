@@ -1,0 +1,139 @@
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+}
+.searchBar{
+    width: 40%;
+    height: 50px;
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid  black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.searchButton{
+    height: 55px;
+    width: 80px;
+    font-size: 20px;
+    background-color: white;
+    font-weight: 600;
+    border: 2px solid  black;
+    border-radius: 0px 20px 20px 0px;
+
+    border-left: 0;
+    cursor: pointer;
+    background-color: rgba(137, 120, 255, 0.7);
+}
+
+
+.unis{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.uni{
+    height: 120px;
+    margin-top: 10px;
+    width: 65%;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    position: relative;
+}
+.uniContent{
+    padding: 16px;
+    font-size: 16px;
+
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin: 0;
+}
+.uniTitle{
+    font-size: 24px;
+}
+.uniContentContainer{
+    position: absolute;
+    bottom: 0;
+}
+.uniLink{
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+.fav_btn{
+    background-color: #fff;
+    display: block;
+    cursor: pointer;
+    width: 155px;
+    height: 25px;
+    font-size: 14px;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    transition: all .45s;
+    margin-bottom: 10px;
+}
+.fav_btn::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--mainColor);
+    transition: all .45s;
+
+}
+.fav_btn:hover{
+    color: #ffff;
+  }
+.fav_btn:hover:after{
+    width: 100%;
+  }
+
+
+  /* .searchContainer {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .searchBar {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchBar:focus {
+    border-color: #8978FD;
+    outline: none;
+    box-shadow: 0 0 5px rgba(137, 120, 253, 0.5);
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    background-color: #8978FD;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchButton:hover {
+    background-color: #6f5ce1;
+  } */

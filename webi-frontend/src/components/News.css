@@ -1,0 +1,29 @@
+.news{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+.new{
+    border: 1px solid black;
+    width: 145px;
+    height: 195px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.content{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.author{
+    font-size: 14px;
+    opacity: 0.8;
+    padding: 10px;    
+    position: absolute;
+    bottom: 0;
+    
+}

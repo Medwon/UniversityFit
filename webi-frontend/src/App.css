@@ -1,0 +1,32 @@
+:root {
+  --mainColor: #8978FD; 
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+  margin: 0;
+  background-color: var(--mainColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  margin-top: 2vh;
+  background-color: white;
+  width: 97vw;
+  min-height: 100vh;
+  border-radius: 20px 20px 0px 0px;
+}
+.smth{
+  margin: 50px 150px;
+}
+.antifooter{
+  min-height: 90vh;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

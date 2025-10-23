@@ -1,0 +1,84 @@
+.help_section_page{
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.help_btns_container{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 25px;
+    font-size: 0;
+}
+.help_btns{
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.help_btns:hover{
+    background-color: rgba(137, 120, 253, 0.4);
+}
+.help_btns.active {
+    background-color: var(--mainColor);
+    color: white;
+}
+.upper{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+    width: 325px;
+}
+.bottom{
+    display: flex;
+    gap: 25px;
+    width: 325px;
+
+}
+.help_info_container{
+    font-size: 24px;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid transparent; /* Чтобы сохранить область */
+    font-size: 16px;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 70px;
+    
+}
+.help_info_container::before,
+.help_info_container::after {
+    content: "";
+    position: absolute;
+    border: 2px solid #333;
+}
+
+.help_info_container::before {
+    top: 0;
+    left: 0;
+    width: 160px; /* Длина верхней линии */
+    height: 120px; /* Длина левой линии */
+    border-right: none;
+    border-bottom: none;
+}
+
+.help_info_container::after {
+    bottom: 0;
+    right: 0;
+    width: 160px; /* Длина нижней линии */
+    height: 120px; /* Длина правой линии */
+    border-left: none;
+    border-top: none;
+}
+.help_info{
+    font-size: 22px;
+    max-width: 500px;
+    font-weight: 500;
+}

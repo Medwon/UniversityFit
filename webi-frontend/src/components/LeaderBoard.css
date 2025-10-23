@@ -1,0 +1,207 @@
+/* .leaderboard_page{
+    display: flex;
+    gap: 170px;
+}
+.user_postition{
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.filter_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #333;
+    width: 400px;
+    position: sticky;
+    top: 10%;
+    height: 200px;
+}
+.diapazon_container{
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+}
+
+.fiter_input{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #333;
+    width: 75px;
+    font-size: 18px;
+}
+.fiter_input_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.users_container{
+    padding-bottom: 10px;
+    padding-left: 0px;
+    border: 2px solid #333;
+
+}
+.each_user{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 450px;
+    border: 2px solid #333;
+    border-left: 0;
+    border-right: 0;
+
+}
+.each_user_ava{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.each_user_name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.each_user_notes{
+    display: flex;
+    gap: 150px;
+    font-size: 18px;
+}
+.each_user_content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.leaderboard_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+} */
+
+/* Стили для фильтров */
+.filter_container {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter_container label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.diapazon_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.fiter_input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.fiter_input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.fiter_input:focus {
+    border-color: #8978fd;
+    outline: none;
+    box-shadow: 0 0 5px rgba(137, 120, 253, 0.5);
+}
+
+.log_btn {
+    background-color: #8978fd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.log_btn:hover {
+    background-color: #6b5fcf;
+}
+
+.btn_lbl {
+    font-weight: bold;
+}
+
+/* Стили для списка пользователей */
+.users_container {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.each_user {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.each_user:hover {
+    transform: scale(1.02);
+}
+
+.user_postition {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #8978fd;
+}
+
+.each_user_ava {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 2px solid #ddd;
+}
+
+.each_user_content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.each_user_name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.each_user_notes {
+    font-size: 14px;
+    color: #666;
+}
